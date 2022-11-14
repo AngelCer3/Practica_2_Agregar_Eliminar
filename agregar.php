@@ -6,7 +6,7 @@
             <div class="col">
                 <div class="card mt-4">
                     <div class="body-card" style="background-color:plum ;">
-                        <form action="./backend/agregar.php" method="post">
+                        <form action="./backend/agregar.php" method="POST">
                         <label for="animal">Animal</label>
                         <input type="text" name="animal" id="animal" class="form-control">
                         <br>

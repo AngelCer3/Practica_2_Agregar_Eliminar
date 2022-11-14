@@ -39,7 +39,7 @@
                                 <td><?php echo $ver['region'];?></td>
                                 <td><?php echo $ver['comida'];?></td>
                                 <td>
-                                    <center><a href="#"><button class="btn btn-success"><i class="fa-solid fa-user-pen"></i>Editar</button></a></center>
+                                    <center><a href="./editar.php?idp=<?php echo $ver['id']; ?>"><button class="btn btn-success"><i class="fa-solid fa-user-pen"></i>Editar</button></a></center>
                                 </td>
                                 <td>
                                     <center><a href="./backend/eliminar.php?idp=<?php echo $ver['id']; ?>"><button class="btn btn-warning"><i class="fa-solid fa-user-xmark"></i>Eliminar</button></a></center>
